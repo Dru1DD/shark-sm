@@ -11,9 +11,21 @@ importers:
       '@nomicfoundation/hardhat-ignition':
         specifier: ^3.0.6
         version: 3.0.6(@nomicfoundation/hardhat-verify@3.0.8(hardhat@3.0.17))(hardhat@3.0.17)
+      '@nomicfoundation/hardhat-network-helpers':
+        specifier: ^3.0.3
+        version: 3.0.3(hardhat@3.0.17)
+      '@nomicfoundation/hardhat-node-test-runner':
+        specifier: ^3.0.7
+        version: 3.0.7(hardhat@3.0.17)
       '@nomicfoundation/hardhat-toolbox-viem':
         specifier: ^5.0.1
         version: 5.0.1(3a03e9048e17e46ca23d32b4e85c0e11)
+      '@nomicfoundation/hardhat-viem':
+        specifier: ^3.0.1
+        version: 3.0.1(hardhat@3.0.17)(viem@2.41.2(typescript@5.8.3)(zod@3.25.76))
+      '@nomicfoundation/hardhat-viem-assertions':
+        specifier: ^3.0.4
+        version: 3.0.4(@nomicfoundation/hardhat-viem@3.0.1(hardhat@3.0.17)(viem@2.41.2(typescript@5.8.3)(zod@3.25.76)))(hardhat@3.0.17)(viem@2.41.2(typescript@5.8.3)(zod@3.25.76))
       '@types/node':
         specifier: ^22.19.1
         version: 22.19.1
